@@ -4,7 +4,7 @@
   "description": "ionic-cli-serve ===============",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,25 +16,28 @@
     "url": "https://github.com/i5ting/ionic-cli-serve/issues"
   },
   "homepage": "https://github.com/i5ting/ionic-cli-serve",
-	"dependencies": {
-	    "archiver": "0.5.1",
-	    "colors": "^0.6.2",
-	    "connect": "^2.14.5",
-	    "connect-livereload": "^0.4.0",
-	    "event-stream": "3.0.x",
-	    "form-data": "~0.1.0",
-	    "ncp": "0.4.2",
-	    "npm": "^1.4.6",
-	    "open": "0.0.5",
-	    "optimist": "0.6.0",
-	    "prompt": "0.2.12",
-	    "progress": "1.1.7",
-	    "q": "^1.0.1",
-	    "request": "2.27.0",
-	    "shelljs": "0.2.6",
-	    "tiny-lr-fork": "0.0.5",
-	    "unzip": "0.1.9",
-	    "vinyl-fs": "^0.1.4",
-	    "xml2js": "^0.4.4"
-	  }
+  "dependencies": {
+    "archiver": "0.5.1",
+    "colors": "^0.6.2",
+    "connect": "^2.14.5",
+    "connect-livereload": "^0.4.0",
+    "event-stream": "3.0.x",
+    "form-data": "~0.1.0",
+    "ncp": "0.4.2",
+    "npm": "^1.4.6",
+    "open": "0.0.5",
+    "optimist": "0.6.0",
+    "prompt": "0.2.12",
+    "progress": "1.1.7",
+    "q": "^1.0.1",
+    "request": "2.27.0",
+    "shelljs": "0.2.6",
+    "tiny-lr-fork": "0.0.5",
+    "unzip": "0.1.9",
+    "vinyl-fs": "^0.1.4",
+    "xml2js": "^0.4.4"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
 }
