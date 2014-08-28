@@ -7,4 +7,9 @@ ionic-cli-serve
 
 	node index
 	
-	
+## 要点
+
+- tiny-lr 做livereload服务器（https://github.com/mklabs/tiny-lr）
+- open 打开浏览器(https://github.com/pwnall/node-open)
+- connect和connect-livereload完成http + livereload
+
